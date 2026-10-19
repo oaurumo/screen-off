@@ -1,0 +1,100 @@
+name: Download and Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "ReleaseTag(留空自动生成)"
+        required: false
+        default: ""
+      urls:
+        description: "下载url(留空则使用仓库内 urls.txt)"
+        required: false
+        default: ""
+
+  push:
+    tags:
+      - '*'
+
+jobs:
+  download-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ===== 步骤1：准备 urls.txt =====
+      - name: Prepare urls.txt
+        run: |
+          if [ -n "${{ github.event.inputs.urls }}" ]; then
+            printf "%s\n" "${{ github.event.inputs.urls }}" > urls.txt
+          elif [ -f urls.txt ]; then
+            echo "使用仓库内已有的 urls.txt"
+          else
+            echo "https://github.com/microsoft/vscode/archive/refs/tags/1.85.0.tar.gz" > urls.txt
+            echo "https://github.com/git/git/archive/refs/tags/v2.43.0.tar.gz" >> urls.txt
+          fi
+          echo "===== urls.txt 内容 ====="
+          cat urls.txt
+
+      # ===== 步骤2：逐行下载，保持原文件名 =====
+      - name: Download files
+        run: |
+          mkdir -p downloads
+          while IFS= read -r url; do
+            url=$(echo "$url" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+            [ -z "$url" ] && continue
+            echo "===== 下载: $url ====="
+            filename=$(basename "$url" | sed 's/?.*//')
+            curl -L --fail --retry 3 -o "downloads/$filename" "$url"
+            echo "已保存: downloads/$filename"
+            ls -lh "downloads/$filename"
+          done < urls.txt
+          echo "===== 所有文件下载完成 ====="
+          ls -lh downloads/
+
+      # ===== 步骤3：确定 Tag =====
+      - name: Determine tag
+        id: tag
+        run: |
+          if [ -n "${{ github.event.inputs.tag_name }}" ]; then
+            TAG="${{ github.event.inputs.tag_name }}"
+          elif [ -n "${{ github.ref_name }}" ]; then
+            TAG="${{ github.ref_name }}"
+          else
+            TAG="release-$(date +'%Y%m%d-%H%M%S')"
+          fi
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "使用 Tag: $TAG"
+
+      # ===== 步骤4：生成 Release 描述（修复核心）=====
+      - name: Prepare Release Body
+        id: release_body
+        run: |
+          {
+            echo "body<<EOF"
+            echo "🤖 自动发布的下载文件"
+            echo ""
+            echo "**文件列表：**"
+            ls downloads/
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      # ===== 步骤5：发布到 Releases =====
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: ${{ steps.tag.outputs.tag }}
+          body: ${{ steps.release_body.outputs.body }}
+          files: downloads/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+
+      # ===== 步骤6：清理 =====
+      - name: Cleanup
+        if: always()
+        run: rm -rf downloads/
