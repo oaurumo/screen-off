@@ -1,0 +1,7 @@
+com.tile.screenoff.app-pngs-0 E:\andriod\AndroidStudioProjects\screenoff\app\build\generated\res\pngs\debug
+com.tile.screenoff.app-resValues-1 E:\andriod\AndroidStudioProjects\screenoff\app\build\generated\res\resValues\debug
+com.tile.screenoff.app-packageDebugResources-2 E:\andriod\AndroidStudioProjects\screenoff\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.tile.screenoff.app-packageDebugResources-3 E:\andriod\AndroidStudioProjects\screenoff\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.tile.screenoff.app-merged_res-4 E:\andriod\AndroidStudioProjects\screenoff\app\build\intermediates\merged_res\debug
+com.tile.screenoff.app-debug-5 E:\andriod\AndroidStudioProjects\screenoff\app\src\debug\res
+com.tile.screenoff.app-main-6 E:\andriod\AndroidStudioProjects\screenoff\app\src\main\res

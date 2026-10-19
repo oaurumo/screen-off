@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/mipmap_ic.png.flat",
+        "source": "com.tile.screenoff.app-main-6:/mipmap/ic.png"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/xml-v25_shortcuts.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/xml-v25/shortcuts.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/layout_main.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/layout/main.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/drawable_selectground.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/drawable/selectground.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/xml_a.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/xml/a.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/drawable_fw.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/drawable/fw.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/drawable_icon.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/drawable/icon.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/drawable_arrow.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/drawable/arrow.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/mipmap-anydpi-v26_icon.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/mipmap-anydpi-v26/icon.xml"
+    },
+    {
+        "merged": "com.tile.screenoff.app-merged_res-4:/drawable_tile.xml.flat",
+        "source": "com.tile.screenoff.app-main-6:/drawable/tile.xml"
+    }
+]

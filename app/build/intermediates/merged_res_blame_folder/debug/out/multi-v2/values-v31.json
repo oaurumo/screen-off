@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tile.screenoff.app-mergeDebugResources-2:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "E:\\andriod\\AndroidStudioProjects\\screenoff\\app\\src\\main\\res\\values-v31\\colors.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,121,191,261,334",
+                        "endColumns": "62,68,68,71,63",
+                        "endOffsets": "115,185,255,328,393"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,118,187,256,328",
+                        "endColumns": "62,68,68,71,63",
+                        "endOffsets": "113,182,251,323,387"
+                    }
+                }
+            ]
+        }
+    ]
+}

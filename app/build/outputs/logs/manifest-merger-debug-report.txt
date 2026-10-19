@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+provider#rikka.shizuku.ShizukuProvider
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:46:9-52:82
+	android:enabled
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:49:13-35
+	android:authorities
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:48:13-59
+	android:multiprocess
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:51:13-41
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:52:13-79
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:47:13-57
+manifest
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:2:1-78:12
+MERGED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:2:1-18:12
+MERGED from [dev.rikka.shizuku:api:13.1.0] E:\andriod\.gradle\caches\transforms-3\5578fa847d6051d16511db6adfc9b47e\transformed\api-13.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [dev.rikka.shizuku:shared:13.1.0] E:\andriod\.gradle\caches\transforms-3\91968c3cca8a28c36f707527f20d1c18\transformed\shared-13.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [dev.rikka.shizuku:aidl:13.1.0] E:\andriod\.gradle\caches\transforms-3\c5ca258b6499b4ead3a24f50746d9594\transformed\aidl-13.1.0\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:7:22-75
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:8:5-95
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:8:22-92
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:12:22-73
+uses-sdk
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:14:5-122
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:14:5-122
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:14:5-122
+MERGED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [dev.rikka.shizuku:api:13.1.0] E:\andriod\.gradle\caches\transforms-3\5578fa847d6051d16511db6adfc9b47e\transformed\api-13.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [dev.rikka.shizuku:api:13.1.0] E:\andriod\.gradle\caches\transforms-3\5578fa847d6051d16511db6adfc9b47e\transformed\api-13.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [dev.rikka.shizuku:shared:13.1.0] E:\andriod\.gradle\caches\transforms-3\91968c3cca8a28c36f707527f20d1c18\transformed\shared-13.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [dev.rikka.shizuku:shared:13.1.0] E:\andriod\.gradle\caches\transforms-3\91968c3cca8a28c36f707527f20d1c18\transformed\shared-13.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [dev.rikka.shizuku:aidl:13.1.0] E:\andriod\.gradle\caches\transforms-3\c5ca258b6499b4ead3a24f50746d9594\transformed\aidl-13.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [dev.rikka.shizuku:aidl:13.1.0] E:\andriod\.gradle\caches\transforms-3\c5ca258b6499b4ead3a24f50746d9594\transformed\aidl-13.1.0\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:14:15-119
+	android:targetSdkVersion
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:16:5-76:19
+INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:16:5-76:19
+MERGED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:12:5-16:19
+MERGED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:12:5-16:19
+	android:extractNativeLibs
+		INJECTED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:18:9-44
+	tools:ignore
+		ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:12:18-69
+	android:icon
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:17:9-36
+	android:theme
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.tile.screenoff.MainActivity
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:20:9-34:20
+	android:excludeFromRecents
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:23:13-46
+	android:launchMode
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:25:13-44
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:24:13-36
+	android:configChanges
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:22:13-72
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:29:27-74
+meta-data#android.app.shortcuts
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:31:13-33:53
+	android:resource
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:33:17-50
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:32:17-53
+service#com.tile.screenoff.GlobalService
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:35:9-45:19
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:38:13-79
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:36:13-42
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:39:13-41:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:40:17-92
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:40:25-89
+meta-data#android.accessibilityservice
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:42:13-44:45
+	android:resource
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:43:17-60
+service#com.tile.screenoff.tileService
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:55:9-66:19
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:57:13-36
+	android:permission
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:59:13-77
+	android:icon
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:58:13-42
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:56:13-40
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:60:13-62:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:61:17-87
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:61:25-84
+meta-data#android.service.quicksettings.TOGGLEABLE_TILE
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:63:13-65:40
+	android:value
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:65:17-37
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:64:17-77
+activity#com.tile.screenoff.ScrOff
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:68:9-71:39
+	android:excludeFromRecents
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:70:13-46
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:69:13-35
+activity#com.tile.screenoff.ScrOn
+ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:72:9-75:39
+	android:excludeFromRecents
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:74:13-46
+	android:exported
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from E:\andriod\AndroidStudioProjects\screenoff\app\src\main\AndroidManifest.xml:73:13-34
+uses-permission#moe.shizuku.manager.permission.API_V23
+ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:10:22-75
+meta-data#moe.shizuku.client.V3_SUPPORT
+ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:13:9-15:36
+	android:value
+		ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:15:13-33
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.0] E:\andriod\.gradle\caches\transforms-3\88722e75560100ab39ea7af7cdb928a3\transformed\provider-13.1.0\AndroidManifest.xml:14:13-57
